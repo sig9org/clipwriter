@@ -1,0 +1,10 @@
+[project]
+name = "clipwriter"
+version = "0.1.0"
+description = "Write the string copied to the clipboard to a file"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["click>=8.3.1", "pyperclip>=1.11.0"]
+
+[dependency-groups]
+dev = []
